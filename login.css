@@ -1,0 +1,101 @@
+.username {
+    position: relative;
+    width: 80%;
+    height: 30px;
+    display: block;
+    left: 10%;
+    background-color: transparent;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+.password {
+    position: relative;
+    width: 80%;
+    height: 30px;
+    display: block;
+    background-color: transparent;
+    left: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.box {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 35%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding-bottom: 30px;
+    backdrop-filter: blur(0.5);
+}
+
+.submit button {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 60%;
+    height: 30px;
+    left: 20%;
+    margin-bottom: 20px;
+    background-color: rgb(207, 241, 234);
+    color: rgb(87, 3, 9)
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+    font-size: 3rem;
+    margin: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+body {
+    font-family: sans-serif, calibri;
+    background-image: url(./assets/background.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.question {
+    position: relative;
+    left: 10%;
+    margin-top: 30px;
+    
+}
+
+.question > button {
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    color: rgb(62, 6, 82);
+    border-radius: 16px;
+    background-color: rgb(160, 201, 224);
+    font-size: 15px;
+}
+
+.input-box > span {
+    position: relative;
+    top: 38px;
+    left: 15px;
+} 
+
+::placeholder, .input-box > span {
+    color: white;
+    border: none;
+}
+
+::placeholder {
+    border: none;
+}
